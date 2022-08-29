@@ -124,7 +124,7 @@ section .row .right .iconscontainer i {
   margin-right: 2rem;
 }
 section .row .right .iconscontainer i:hover {
-  transform: scale(0.4);
+  transform: scale(1.5);
 }
 section .row .right .iconscontainer .fa-github {
   color: black;
