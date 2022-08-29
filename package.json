@@ -1,20 +1,30 @@
 {
-  "name": "boilerplate",
+  "name": "Vijaya-portfolio",
   "version": "1.0.0",
   "description": "This is a boilerplate",
   "scripts": {
+    "compile":"sass ./src/main.scss ./src/main.css --watch",
     "start": "parcel src/index.html",
     "build": "rm -rf dist && parcel build src/index.html --public-url ./",
     "publish": "gh-pages -d dist"
   },
-  "author": "dci",
+  "author": "Vijaya Challa",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "gh-pages": "^4.0.0",
-    "parcel": "^2.7.0"
+    "parcel": "^2.7.0",
+    "sass": "^1.54.5"
   },
   "dependencies": {
     "bootstrap": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijaya-challa/my-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vijaya-challa/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/vijaya-challa/my-portfolio#readme"
 }

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -22,7 +23,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <link rel="stylesheet" href="./main.css" />
     <title>Vijaya's Portfolio</title>
   </head>
@@ -46,7 +46,7 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item mx-auto">Home</li>
+          <li class="nav-item mx-auto"><a href="./index.html">Home</a></li>
           <li class="nav-item mx-auto">Projects</li>
           <li class="nav-item mx-auto">
             <a href="./contact.html" rel="noopener noreferrer">Contact</a>
@@ -54,54 +54,63 @@
         </ul>
       </div>
     </nav>
-    <!-- main -->
-    <section class="container">
-      <div class="row">
-        <div class="col-md-6 left">
-          <img src="../images/profile2.png" alt="" />
-        </div>
-        <div class="col-md-6 right">
-          <p class="hi">
-            Hi <img class="handicon" src="../images/hand.ico" alt="" />
-          </p>
-          <p>I am <span>Vijaya Challa</span></p>
-          <p>
-            aspiring to be
-            <span>Full stack Developer</span>
-          </p>
-          <p>
-            I am currently learning <span>Web Development</span> at
-            <a
-              href="https://start.digitalcareerinstitute.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-              >DCI</a
-            >
-          </p>
-          <div class="iconscontainer">
-            <a
-              href="https://www.linkedin.com/in/vijaya-challa-20b636249/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fa-brands fa-linkedin"></i
-            ></a>
-            <a
-              href="https://github.com/vijaya-challa"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i class="fa-brands fa-github"></i
-            ></a>
+    <!--  -->
+    <section class="container formcontainer">
+      <div class="forms">
+        <form action="mailto:vijayajay1814@gmail.com">
+          <h2>Contact me</h2>
+          <div>
+            <label for="name"><i class="fa-solid fa-user"></i>Name</label>
           </div>
-        </div>
+          <div class="inputarea">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Please enter your name"
+              required
+            />
+          </div>
+          <div>
+            <label for="email"
+              ><i class="fa-solid fa-envelope"></i> E-mail Address</label
+            >
+          </div>
+          <div class="inputarea">
+            <input
+              type="email"
+              id=" email"
+              name="email"
+              placeholder="Please enter your email"
+              required
+            />
+          </div>
+          <div>
+            <label for="message"
+              ><i class="fa-solid fa-comment"></i> Message</label
+            >
+          </div>
+          <div class="inputarea">
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="5"
+              placeholder="Leave your message here"
+            ></textarea>
+          </div>
+          <div>
+            <button class="btn submitbutton" type="submit">
+              <i class="fa-solid fa-paper-plane"></i> Send
+            </button>
+          </div>
+        </form>
       </div>
     </section>
     <!-- footer -->
     <footer>
       <p>Copyright &copy; VIJAYA CHALLA</p>
     </footer>
-    <!--  -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
