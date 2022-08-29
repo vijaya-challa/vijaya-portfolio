@@ -18,6 +18,7 @@ body {
 }
 
 nav {
+  padding-top: 1rem;
   background-color: var(--pinkcolor);
   padding: 1.5rem !important;
   position: fixed !important;
@@ -38,6 +39,9 @@ nav div img {
 }
 nav div span {
   font-size: 1.5rem;
+}
+nav .navbar-toggler {
+  border: none;
 }
 nav .navbar-toggler:focus {
   box-shadow: none;
@@ -72,7 +76,7 @@ nav ul li a {
     width: 0%;
   }
   100% {
-    width: 75%;
+    width: 70%;
   }
 }
 
@@ -119,6 +123,9 @@ section .row .right .iconscontainer i {
   font-size: 2.5rem;
   margin-right: 2rem;
 }
+section .row .right .iconscontainer i:hover {
+  transform: scale(0.4);
+}
 section .row .right .iconscontainer .fa-github {
   color: black;
 }
@@ -149,6 +156,9 @@ footer {
   .formcontainer {
     margin-top: 4rem;
   }
+  nav ul li {
+    margin: 1rem;
+  }
   section {
     margin-top: 3rem;
     margin-bottom: 10rem;
@@ -157,7 +167,7 @@ footer {
     text-align: center;
   }
   section .row .left {
-    height: 55vh;
+    height: 60vh;
   }
   section .row .left img {
     width: 40%;
@@ -174,10 +184,8 @@ footer {
     width: 70%;
     margin: auto;
   }
-}
-@media screen and (max-width: 992px) {
-  nav {
-    padding: 0 !important;
+  nav ul li {
+    margin: 1rem;
   }
 }
 .formcontainer {
