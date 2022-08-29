@@ -39,7 +39,7 @@ nav div img {
 nav div span {
   font-size: 1.5rem;
 }
-nav button span {
+nav .navbar-toggler:focus {
   box-shadow: none;
 }
 nav .iconone {
@@ -142,6 +142,7 @@ footer {
   display: flex;
   justify-content: center;
   color: white;
+  padding-top: 1rem;
 }
 
 @media screen and (max-width: 767px) {
@@ -208,7 +209,10 @@ footer {
 .formcontainer .forms i {
   margin-right: 0.5rem;
 }
-.formcontainer .forms .submitbutton {
+.formcontainer .forms .buttoncontainer {
+  text-align: center;
+}
+.formcontainer .forms .buttoncontainer .submitbutton {
   color: white;
   background-color: blue;
   border-radius: 60px;

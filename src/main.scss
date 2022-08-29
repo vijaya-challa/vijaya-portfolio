@@ -9,6 +9,7 @@
 }
 
 * {
+    // background-color: rgba(192,19,72,0.9);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -53,8 +54,11 @@ z-index: 1;
     @include fontsize;
     }
 
-button span{
-    box-shadow: none;
+.navbar-toggler{
+    &:focus {
+        box-shadow: none;
+    }
+    
 }
 
     .iconone {
@@ -188,6 +192,7 @@ footer {
     display: flex;
     justify-content: center;
     color: white;
+    padding-top: 1rem;
 }
 
 // mediaqueries
@@ -278,12 +283,19 @@ input {
            i {
                margin-right: 0.5rem;
            }
-       
-           .submitbutton {
-               color: white;
-               background-color: blue;
-               border-radius: 60px;
+
+           .buttoncontainer {
+text-align: center;
+
+            .submitbutton {
+                color: white;
+                background-color: blue;
+                border-radius: 60px;
+                
+            }
            }
+       
+           
     }
 
 }
