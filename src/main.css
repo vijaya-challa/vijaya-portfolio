@@ -226,4 +226,15 @@ footer {
   border-radius: 60px;
 }
 
+.projectcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.projectcontainer div {
+  color: var(--pinkcolor);
+  font-size: 3rem;
+}
+
 /*# sourceMappingURL=main.css.map */
