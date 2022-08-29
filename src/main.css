@@ -154,7 +154,7 @@ footer {
 
 @media screen and (max-width: 767px) {
   .formcontainer {
-    margin-top: 4rem;
+    margin-top: 8rem;
   }
   nav ul li {
     margin: 1rem;
