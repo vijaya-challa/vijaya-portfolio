@@ -34,10 +34,10 @@ nav {
     // background-color: rgba(192,19,72);
     background-color: var(--pinkcolor);
     padding: 1.5rem !important;
-    position: fixed !important;
+    position: sticky !important;
     top: 0;
     width: 100vw;
-z-index: 1;
+    z-index: 1;
     .logo {
     display: flex;
     align-items: center;
@@ -110,7 +110,9 @@ z-index: 1;
 
 //main
 section {
-    margin-top: 5.5rem;
+    // margin-top: 5.5rem;
+
+    // 
     // background-color: rgba(192,19,72,0.1);
     .row{
         .left{
@@ -210,10 +212,21 @@ footer {
 
 // mediaqueries
 
+@media screen and (max-width:376px) {
+    
+    // .formcontainer {
+    //     .forms{
+    //         margin-top: 20vh;
+    //     }
+    // }
+
+}
+
+
 @media screen and (max-width:767px) {
     // form
     .formcontainer {
-        margin-top: 8rem;
+        
     }
 
 nav {
@@ -233,8 +246,8 @@ nav {
 
     // index
     section {
-        margin-top: 3rem;
-        margin-bottom: 10rem;
+        // margin-top: 3rem;
+        // margin-bottom: 10rem;
         .row {
             p {
                 text-align: center;
@@ -257,11 +270,11 @@ nav {
 @media screen and (max-width:991px) {
 
     section {
-        margin-top: 3rem;
+        // margin-top: 3rem;
                 .row {
                     .left {
                         img{
-                            width: 70%;
+                            width: 57%;
                             margin: auto;
                         }
                 }
@@ -269,18 +282,18 @@ nav {
         }
 
         nav {
-            // padding-top: 1.5rem;
-        
-            
-        
             ul {
                 li{
                     margin: 1rem;
                 }
             }
+
+            
         
             
         }
+
+        
 
 
 }
@@ -297,7 +310,8 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 70vh;
+    // margin-top: 10vh;
 
     .forms {
         background-color: rgba(120, 80, 80, 0.564);

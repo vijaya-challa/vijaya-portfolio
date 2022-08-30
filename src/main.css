@@ -21,7 +21,7 @@ nav {
   padding-top: 1rem;
   background-color: var(--pinkcolor);
   padding: 1.5rem !important;
-  position: fixed !important;
+  position: sticky !important;
   top: 0;
   width: 100vw;
   z-index: 1;
@@ -80,9 +80,6 @@ nav ul li a {
   }
 }
 
-section {
-  margin-top: 5.5rem;
-}
 section .row .left {
   background-image: url(../images/blobbg5.svg);
   background-repeat: no-repeat;
@@ -153,15 +150,8 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  .formcontainer {
-    margin-top: 8rem;
-  }
   nav ul li {
     margin: 1rem;
-  }
-  section {
-    margin-top: 3rem;
-    margin-bottom: 10rem;
   }
   section .row p {
     text-align: center;
@@ -177,11 +167,8 @@ footer {
   }
 }
 @media screen and (max-width: 991px) {
-  section {
-    margin-top: 3rem;
-  }
   section .row .left img {
-    width: 70%;
+    width: 57%;
     margin: auto;
   }
   nav ul li {
@@ -192,7 +179,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 60vh;
+  height: 70vh;
 }
 .formcontainer .forms {
   background-color: rgba(120, 80, 80, 0.564);
