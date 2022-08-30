@@ -114,6 +114,8 @@ section {
 
     // 
     // background-color: rgba(192,19,72,0.1);
+
+    margin-bottom: 6rem;
     .row{
         .left{
             background-image: url(../images/blobbg5.svg);
@@ -201,8 +203,9 @@ section {
 
 footer {
     position: fixed;
-    width: 100vw;
     bottom: 0;
+    width: 100vw;
+    
     background-color: var(--pinkcolor);
     display: flex;
     justify-content: center;

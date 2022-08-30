@@ -80,6 +80,9 @@ nav ul li a {
   }
 }
 
+section {
+  margin-bottom: 6rem;
+}
 section .row .left {
   background-image: url(../images/blobbg5.svg);
   background-repeat: no-repeat;
@@ -140,8 +143,8 @@ section .row .right .iconscontainer .fa-github {
 }
 footer {
   position: fixed;
-  width: 100vw;
   bottom: 0;
+  width: 100vw;
   background-color: var(--pinkcolor);
   display: flex;
   justify-content: center;
