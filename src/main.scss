@@ -41,14 +41,16 @@ nav {
     .logo {
     display: flex;
     align-items: center;
+    
     }
 
     div img {
-    width: 25px;
-    height: 25px;
+    width: 45px;
+    height: 45px;
     border-radius: 6px;
     margin-left: 1rem;
     margin-right: 1rem;
+    
     }
 
     div span {
@@ -85,11 +87,19 @@ nav {
             border-bottom: 6px solid #03071e;
             animation: line 1s;
         }
+        &:hover{
+            color: rgba(136,187,68,255);
+        }
 
         a {
             text-decoration: none;
             color: white;
+
+            &:hover {
+                color: rgba(136,187,68,255);
+            }
         }
+
         }
 
     
@@ -160,21 +170,15 @@ section {
                 }
                 .iconscontainer {
                     i {
+                        color: gray;
                         font-size: 2.5rem;
                         margin-right: 2rem;
                         &:hover {
                             transform: scale(1.5);
+                            color: rgba(136,187,68,255);
                         }
                         
                     }
-
-
-.fa-github {
-    color: black;
-}
-
-
-
                 }
             }
     } 
@@ -328,11 +332,19 @@ input {
     width: 300px;
     height: 45px;
     border-radius: 10px;
+padding-left: 2rem;
+
 }
+
+textarea {
+padding-top: 1rem;
+padding-left: 1rem;
+}
+
            }
 
            label i{
-            color: black;
+            color: gray;
         }
 
         label {
@@ -345,11 +357,11 @@ input {
            }
 
            .buttoncontainer {
-text-align: center;
+                text-align: center;
 
             .submitbutton {
                 color: white;
-                background-color: blue;
+                background-color: rgba(136,187,68,255);
                 border-radius: 60px;
                 
             }
