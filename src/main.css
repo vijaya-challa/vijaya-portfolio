@@ -203,6 +203,7 @@ footer {
   height: 45px;
   border-radius: 10px;
   padding-left: 2rem;
+  color: red;
 }
 .formcontainer .forms .inputarea textarea {
   padding-top: 1rem;
