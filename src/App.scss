@@ -1,0 +1,44 @@
+
+@import "custom";
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+.profileInfo, .projects, .contactme {
+  -webkit-box-shadow: -9px -3px 19px 5px rgba(0,0,0,0.72); 
+  box-shadow: -9px -3px 19px 5px rgba(0,0,0,0.72);
+  max-width: 850px;
+  padding: 5px;
+}
+
+.skill, .profile {
+  margin: 5px;
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.carousel-inner {
+  display: inline-flex;
+  width: 50px;
+}
+
+.infoMessage {
+  position: fixed;
+  top: 30%;
+  left:0;
+  width: 90%;
+  z-index: 5;
+}
+
+.vijayaLabel {
+  font-family: 'Monsieur La Doulaise', cursive;;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.projects {
+  .card {
+    min-width: 18rem;
+    margin: 5px;
+  }
+}
