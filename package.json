@@ -1,4 +1,5 @@
 {
+  "homepage": "https://vijaya-challa.github.io/my-portfolio",
   "name": "vijaya-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -50,6 +51,5 @@
   },
   "bugs": {
     "url": "https://github.com/vijaya-challa/my-portfolio/issues"
-  },
-  "homepage": "https://github.com/vijaya-challa/my-portfolio"
+  }
 }
