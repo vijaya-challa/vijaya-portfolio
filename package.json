@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vijaya-challa.github.io/my-portfolio",
+  "homepage": "https://vijaya-challa.github.io/vijaya-portfolio",
   "name": "vijaya-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -44,12 +44,5 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vijaya-challa/my-portfolio.git"
-  },
-  "bugs": {
-    "url": "https://github.com/vijaya-challa/my-portfolio/issues"
   }
 }
