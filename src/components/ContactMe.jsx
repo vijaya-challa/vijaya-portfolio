@@ -2,9 +2,9 @@ import { Container, Form, Col, Row, Button } from "react-bootstrap"
 
 function ContactMe({mode}) {
   return (
-    <Container className="contactme  mt-xs-2 mt-sm-3 mt-lg-4 mt-xl-5 mt-xxl-5 ml-1 mr-1">
+    <Container className="contactme  mt-xs-2 mt-sm-3 mt-lg-4 mt-xl-5 mt-xxl-5 ml-1 mr-1 mb-5">
       <Form>
-        <Form.Group as={Row} className="mb-3 justify-content-center" controlId="formHorizontalName">
+        <Form.Group as={Row} className="mb-3 mt-3 justify-content-center" controlId="formHorizontalName">
           <Form.Label column sm={2}>
             Name
           </Form.Label>

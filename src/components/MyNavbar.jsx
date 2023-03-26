@@ -7,13 +7,13 @@ function MyNavbar({mode, isDarkMode, setIsDarkMode}) {
   return (
     <Navbar collapseOnSelect expand="md" bg={mode} variant={mode} sticky="top">
       <Container>
-        <Navbar.Brand href="#home" className='vijayaLabel'>Vijaya</Navbar.Brand>
+        <Navbar.Brand href="/" className='vijayaLabel'>Vijaya</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="container-fluid justify-content-evenly">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
           <Nav>
           <DarkModeToggle onChange={setIsDarkMode} isDarkMode={isDarkMode} size="4rem" className="lightDarkMode"></DarkModeToggle>

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.scss';
 import ContactMe from './components/ContactMe';
 import Home from './components/Home';
@@ -28,9 +29,12 @@ function App() {
       <header className="App-header">
         <MyNavbar mode={isDarkMode ? 'dark' : 'light'} isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode}></MyNavbar>
       </header>
-      <Home mode={isDarkMode ? 'dark' : 'light'}></Home>
-      <Projects mode={isDarkMode ? 'dark' : 'light'}></Projects>
-      <ContactMe mode={isDarkMode ? 'dark' : 'light'}></ContactMe>
+      <Routes>
+        <Route path='/' element={<Home mode={isDarkMode ? 'dark' : 'light'}></Home>}/>
+        <Route path='/projects' element={<Projects mode={isDarkMode ? 'dark' : 'light'}></Projects>}/>
+        <Route path='/contact' element={<ContactMe mode={isDarkMode ? 'dark' : 'light'}></ContactMe>}/>
+        <Route path='*' element={<Home mode={isDarkMode ? 'dark' : 'light'}></Home>}/>
+      </Routes>
       <MyFooter mode={isDarkMode ? 'dark' : 'light'}></MyFooter>
       <InfoToast/>
     </div>
